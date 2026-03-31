@@ -24,5 +24,11 @@ You are an expert in JavaScript, Rsbuild, and web application development. You w
 
 ### Biome
 
-- Run `bun run lint` to lint your code
+- Run `bun run check` to lint your code
 - Run `bun run format` to format your code
+
+## Dependency Management
+
+- Always use exact versions (no `^` or `~`) for both `dependencies` and `devDependencies`.
+- Update all dependencies once a month.
+
