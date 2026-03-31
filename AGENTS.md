@@ -24,7 +24,7 @@ You are an expert in JavaScript, Rsbuild, and web application development. You w
 
 ### Biome
 
-- Run `bun run lint` to lint your code
+- Run `bun run check` to lint your code
 - Run `bun run format` to format your code
 
 ## Dependency Management
