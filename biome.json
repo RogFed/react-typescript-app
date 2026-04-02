@@ -1,6 +1,7 @@
 {
   "$schema": "./node_modules/@biomejs/biome/configuration_schema.json",
   "assist": {
+    "enabled": true,
     "actions": {
       "source": {
         "organizeImports": "on"
@@ -13,11 +14,13 @@
     "useIgnoreFile": true
   },
   "formatter": {
+    "enabled": true,
     "indentStyle": "space"
   },
   "javascript": {
     "formatter": {
-      "quoteStyle": "single"
+      "quoteStyle": "single",
+      "arrowParentheses": "asNeeded"
     }
   },
   "css": {
