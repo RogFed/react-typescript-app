@@ -1,6 +1,7 @@
 {
   "$schema": "./node_modules/@biomejs/biome/configuration_schema.json",
   "assist": {
+    "enabled": true,
     "actions": {
       "source": {
         "organizeImports": "on"
@@ -25,14 +26,6 @@
   "css": {
     "parser": {
       "cssModules": true
-    },
-    "assist": {
-      "enabled": true
-    }
-  },
-  "json": {
-    "assist": {
-      "enabled": true
     }
   },
   "linter": {
