@@ -1,4 +1,15 @@
-# Rsbuild project
+# react-typescript-app
+
+A minimal React + TypeScript starter built with Rsbuild — fast builds, strict linting, and testing out of the box.
+
+## Tech Stack
+
+- **React** 19 — UI component library
+- **TypeScript** 6 — static typing
+- **Rsbuild** — build tool & dev server (powered by Rspack)
+- **Biome** — formatter & linter
+- **Rstest** — test runner
+- **Bun** — package manager & script runner
 
 ## Setup
 
@@ -8,29 +19,29 @@ Install the dependencies:
 bun install
 ```
 
-## Get started
+## Get Started
 
-Start the dev server, and the app will be available at [http://localhost:3000](http://localhost:3000).
+Start the dev server — the app will be available at [http://localhost:3000](http://localhost:3000):
 
 ```bash
 bun run dev
 ```
 
-Build the app for production:
+## Scripts
 
-```bash
-bun run build
-```
+| Script | Command | Description |
+|--------|---------|-------------|
+| `dev` | `bun run dev` | Start the dev server |
+| `build` | `bun run build` | Build the app for production |
+| `preview` | `bun run preview` | Preview the production build locally |
+| `test` | `bun run test` | Run tests |
+| `test:watch` | `bun run test:watch` | Run tests in watch mode |
+| `check` | `bun run check` | Lint and format code (run before committing) |
+| `format` | `bun run format` | Format code only |
 
-Preview the production build locally:
+## Learn More
 
-```bash
-bun run preview
-```
-
-## Learn more
-
-To learn more about Rsbuild, check out the following resources:
-
-- [Rsbuild documentation](https://rsbuild.rs) - explore Rsbuild features and APIs.
-- [Rsbuild GitHub repository](https://github.com/web-infra-dev/rsbuild) - your feedback and contributions are welcome!
+- [Rsbuild documentation](https://rsbuild.rs) — build config, plugins, and APIs
+- [Rspack documentation](https://rspack.rs) — the bundler powering Rsbuild
+- [Rstest documentation](https://rstest.rs) — test runner docs
+- [Biome documentation](https://biomejs.dev) — formatter & linter config
